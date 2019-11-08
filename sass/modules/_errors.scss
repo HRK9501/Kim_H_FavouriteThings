@@ -1,7 +1,29 @@
-
-body {
-    background-color: black;
-    color:white;
+.errorbody {
+    margin: 150px 0;
+    text-align: center;
 }
 
-a { color:white; text-decoration: none;}
+.errorImg{max-width: 550px;}
+
+.numberhead {
+    font-size: 170px; 
+    font-weight: bold; 
+    margin: 150px auto 40px auto;
+    letter-spacing: 15px;
+}
+
+.errorText {
+    font-size: 50px;
+    margin: auto 100px 150px 100px;
+}
+
+.backbutton {
+    text-decoration: none;
+    font-size: 30px;
+    background: $main-pink;
+    padding: 22px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 9px;
+}

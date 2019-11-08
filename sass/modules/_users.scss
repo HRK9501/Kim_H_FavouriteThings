@@ -19,7 +19,6 @@
 .p-story {
     font-size: 35px;
     line-height: 95px;
-    margin-top: 80px;
 }
 
 .bio {
@@ -29,16 +28,15 @@
 .user-panel-heading {
     font-size: 30px;
     font-weight: bold;
-    margin: 40px 0;
+    margin: 40px 50px;
 }
 
 .user-panel-story{
     font-size: 20px;
     margin-bottom: 80px;
     line-height: 30px;
+    margin: 0 50px 80px;
 }
-
-#section3 {margin: 0 50px;}
 
 
 
@@ -71,7 +69,7 @@
 @media screen and (min-width: 900px) {
     #section1 {display: flex;}
 
-    .bio-info {width: 50%;}
+    .bio-info {width: 50%; padding: 35px 0;}
 
     .bio-photo {width: 50%;}
 

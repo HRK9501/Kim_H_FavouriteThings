@@ -17,9 +17,9 @@ const myVM = (() => {
             targetImg = lightBox.querySelector('img');
 
         let bioContent = `
-            <img src="${festival.Stage}">
+            <img src="images/${festival.Stage}">
             <p>${festival.Info}</p>
-            <video src="${festival.Video}"></video>
+            ${festival.Video}
         `;
 
         targetDiv.innerHTML = bioContent;
