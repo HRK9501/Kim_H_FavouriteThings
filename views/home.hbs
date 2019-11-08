@@ -1,0 +1,62 @@
+<section id="section1" class="panel">
+    <div class="bio-info">
+        <h1 class="p-name">Are You Ready for Play?</h1>
+        <p class="p-story">
+          Let's burn<br>our youth for<br>our day that<br>will never come back.
+        </p>
+    </div>
+
+    <div class="bio-photo">
+        <img src="images/bg.jpg" alt="bio photo" class="bio">
+    </div>
+
+</section>
+{{!-- <section id="section2" class="panel">panel 2</section> --}}
+<section id="section3" class="panel">
+    <h1 class="user-panel-heading">
+        We always live as if it was our last festival 
+    </h1>
+
+    <p class="user-panel-story">
+        These days are the age of festivals. There are so many music festivals to enjoy. People can go to the festival by following their favourite music genres and artists. If you like a specific genre of music and want to attend a festival, you can quickly become friends with people around you as soon as you arrive. However, most people are not able to participate because they are not sure when and where the festival is held. So, I want to introduce my favourite music festival among many music festivals. I hope that you will be able to attend music festivals and expand your musical spectrum. 
+    </p>
+
+    <h4>Click on a festival logos below to learn more about it.</h4>
+
+    <div class="team">
+        <!-- loop through all our team members and put their info on the page -->
+
+        {{#each festivals}}
+        <div class="user-panel">
+            <img src="images/{{Logo}}" alt="avatar" class="u-avatar">
+            
+            <a href="{{ID}}" class="u-link">
+                See More Info
+            </a>
+
+            <h1>{{Name}}</h1>
+            <h3>{{Place}}</h3>
+
+        </div>
+
+        {{/each}}
+        
+    </div>
+    </div>
+
+    <!-- this will be filled in on the client side when we render our AJAX data -->
+    <section class="lightbox">
+        <span class="close">X</span>
+        <div class="sidebar">
+            <img src="" alt="larger bio image">
+        </div>
+
+        <div class="lb-content">
+            <!-- render the database content here -->
+
+
+        </div>
+    </section>
+</section>
+{{!-- <section id="section4" class="panel">panel 4</section>
+<section id="section5" class="panel"></section> --}}
